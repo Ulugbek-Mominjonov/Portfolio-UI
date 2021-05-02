@@ -53,3 +53,10 @@ img{
   max-width: 100%;
   display: block;
 }
+.container{
+  max-width: 1152px;
+  padding-left: 148px;
+  padding-right: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
