@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>project name</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -15,13 +16,13 @@
       <div class="container">
         <ul class="nav-list list">
           <li class="nav-item">
-            <a class="nav-link href="#"">Works</a>
+            <a class="nav-link" href="#works">Works</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link href="#"">Blog</a>
+            <a class="nav-link" href="#blog">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link href="#"">Contact</a>
+            <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
       </div>
@@ -45,7 +46,113 @@
     </section>
   </header>
 
+  <!-- main  -->
+  <main>
+    <!-- recent-post -->
+    <section class="recent-post" id="post">
+      <div class="container post-container">
+        <h2 class="section-title post-heading">
+          Recent posts
+          <a href="#" class="posts-link">View all</a>
+        </h2>
 
+        <ul class="post-list list">
+          <li class="post-item">
+            <a href="#" class="post-link">
+              <h3 class="post-title">
+                Making a design system from scratch
+              </h3>
+              <span class="post-data">12 Feb 2020</span>
+              <span class="post-topic">Design, Pattern</span>
+              <p class="post-info">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </a>
+          </li>
+          <li class="post-item">
+            <a href="#" class="post-link">
+              <h3 class="post-title">
+                Creating pixel perfect icons in Figma
+              </h3>
+              <span class="post-data">12 Feb 2020</span>
+              <span class="post-topic">Figma, Icon Design</span>
+              <p class="post-info">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- featured-work -->
+    <section class="featured-work" id="works">
+      <div class="container featured-container">
+        <h2 class="section-title work-heading">Featured works</h2>
+
+        <ul class="work-list list">
+          <li class="work-item">
+            <a href="#" class="work-link Dashboard">
+              <div class="work-date">
+                <h3 class="work-title">Designing Dashboards</h3>
+
+                <span class="work-data">2020</span>
+                <span class="work-topic">Dashboard</span>
+
+                <p class="work-info">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>
+              </div>
+            </a>
+          </li>
+
+          <li class="work-item">
+            <a href="#" class="work-link Portraits">
+              <div class="work-date">
+                <h3 class="work-title">Vibrant Portraits of 2020</h3>
+
+                <span class="work-data">2018</span>
+                <span class="work-topic">Illustration</span>
+
+                <p class="work-info">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>
+              </div>
+            </a>
+          </li>
+
+          <li class="work-item">
+            <a href="#" class="work-link Days">
+              <div class="work-date">
+                <h3 class="work-title">36 Days of Malayalam type</h3>
+
+                <span class="work-data">2018</span>
+                <span class="work-topic">Typography</span>
+
+                <p class="work-info">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  
+  <!-- footer -->
+  <footer class="site-footer" id="blog">
+    <div class="container footer-container">
+      <div class="social-media">
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-telegram"></i>
+      </div>
+      <p class="footer-text">Copyright ©2020 All rights reserved </p>
+    </div>
+  </footer>
 
 
 
